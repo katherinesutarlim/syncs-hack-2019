@@ -207,6 +207,14 @@ menu {
   border-radius: 4px;
 }
 
-.btn {
+.btn, .logo {
   cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.posture-warning {
+  line-height: 3rem;
 }

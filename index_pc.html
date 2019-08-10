@@ -24,13 +24,13 @@
       </div>
       <div class="menu_section">
         <ul>
-          <li><a href="#" class="selected">
+          <li><a href="#" id="dashboard" class="selected">
             <img src="assets\menu_icon.png" alt="">
             Dashboard
           </a></li>
-          <li><a href="#">
+          <li><a href="#" id="posture-btn">
             <img src="assets\rewards_icon.png" alt="">
-            My Rewards
+            My Summary
           </a></li>
         </ul>
       </div>
@@ -46,7 +46,12 @@
         Oh My Posture!
       </div>
     </menu>
-    <div class="body_container">
+    <div id="posture" class="body_container hide tile">
+      <h1 class="posture-warning">Dear Tim, </h1>
+      <h2 class="posture-warning">According to our analysis, your posture today looks like this.</h2>
+      <img src="./assets/bad_posture.jpg" alt="">
+    </div>
+    <div id="main-layout" class="body_container">
       <div class="tile posture_today">
         <h5 class="card-title">Your posture today</h5>
         <div class="progress">
@@ -85,5 +90,7 @@
         </ul>
       </div>
     </div>
+  </div>
+  <script src="./index_pc.js"></script>
   </body>
 </html>
