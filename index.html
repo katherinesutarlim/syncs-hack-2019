@@ -1,0 +1,60 @@
+<!-- Made with the tutorial in https://medium.com/izettle-engineering/beginners-guide-to-web-push-notifications-using-service-workers-cb3474a17679 -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body style="background-image: url(assets/work.PNG); background-position: 0px -72px; margin: 0;">
+    <button type="button" name="notif" onclick="this.blur(); buttonClickN();"
+      style="background: none;
+              top: 231px;
+              left: 156px;
+              position: absolute;
+              border: none;
+              width: 179px;
+              height: 19px;">
+    </button>
+    <button type="button" name="warning" onclick="this.blur(); buttonClickW();"
+      style="background: none;
+              top: 251px;
+              left: 156px;
+              position: absolute;
+              border: none;
+              width: 179px;
+              height: 19px;">
+    </button>
+    <div class="show" id="success_message"
+      style="background-color: #109CF1;
+          font-family: 'Roboto', sans-serif;
+          color: white;
+          width: 400px;
+          height: 60px;
+          text-align: center;
+          line-height: 60px;
+          position: absolute;
+          top: 50vh;
+          left: 50vw;
+          transform: translateX(-50%) translateY(-50%);
+          ">
+      We're watching you now...
+    </div>
+  </body>
+  <style media="screen">
+    .hide {
+    opacity: 0;
+    transition: opacity 3000ms;
+    }
+  </style>
+  <script type="text/javascript">
+    // solution from https://codepen.io/ianaya89/pen/qEqWWB
+    function fadeOut(el){
+      el.classList.add('hide');
+      el.classList.remove('show');
+    }
+    setTimeout(fadeOut, 2000, document.getElementById('success_message'));
+  </script>
+</html>
