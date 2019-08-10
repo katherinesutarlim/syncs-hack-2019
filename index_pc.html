@@ -3,10 +3,15 @@
   <head>
     <link rel="stylesheet" href="./css/index_pc.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <meta charset="utf-8">
     <title>Oh My Posture!</title>
   </head>
   <body>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="" async defer></script> -->
     <menu>
       <div class="user_profile">
         <img class="avatar" src="assets/avatar.png" alt="">
@@ -43,13 +48,41 @@
     </menu>
     <div class="body_container">
       <div class="tile posture_today">
-
+        <h5 class="card-title">Your posture today</h5>
+        <div class="progress">
+          <div class="progress-bar"></div>
+        </div>
+        <p class="number-highlight">62%</p>
+        <p class="card-text-bigger card-text">God you are awful</p>
       </div>
       <div class="tile points">
-
+        <h5 class="card-title">Your points</h5>
+          <p class="number-highlight">653</p>
+          <p class="card-text-bigger">50 earned today. <br> Keep going, you lazy ass!</p>
       </div>
-      <div class="tile rewards_earned">
-
+      <div class="tile rewards">
+        <div class="card-title">
+          Rewards Earned: 12
+        </div>
+      <div class="rewards_container">
+        <ul>
+          <li class="rewards_item">
+            <img class="rewards_img" src="assets\hipster_curves_i.png" alt="">
+            <div class="rewards_text">
+                <h5 class="reward_item_title">Hipster Curves I</h5>
+                <p class="card-text">Oh, what an attractive round back! Losers finds it irresistable</p>
+                <footer>Do not move for at least 2 hours</footer>
+            </div>
+          </li>
+          <li class="rewards_item">
+            <img class="rewards_img" src="assets\coffee_voucher.png" alt="">
+            <div class="rewards_text">
+              <h5 class="reward_item_title">$5 coffee voucher</h5>
+              <p class="card-text">2000 points</p>
+              <button type="button" name="button">Claim it!</button>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
