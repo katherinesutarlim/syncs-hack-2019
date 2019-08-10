@@ -206,3 +206,7 @@ menu {
   box-shadow: none;
   border-radius: 4px;
 }
+
+.btn {
+  cursor: pointer;
+}
