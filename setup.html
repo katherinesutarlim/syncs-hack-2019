@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/setup.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Oh My Posture!</h1>
+      <hr>
+      <p>Let's get you set up.</p>
+      <p>First, you should know what a good posture look like.</p>
+      <p>Position your body so that the top of your head reaches the green dot.</p>
+      <div class="vid-container">
+        <div class="circle"></div>
+        <video id="video" width="640" height="480" autoplay></video>
+      </div>
+      <br>
+      <button id="snap">Snap Photo</button>
+      <br>
+      <canvas id="canvas" width="640" height="480"></canvas>
+      <button id="snap" onclick="location.href='http://127.0.0.1:8080/index_pc.html';">I look good, totes my reference pic</button>
+    </div>
+    <script src="setup.js" charset="utf-8"></script>
+  </body>
+</html>
