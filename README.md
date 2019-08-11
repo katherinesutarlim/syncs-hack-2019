@@ -11,3 +11,7 @@ To start up the project
 npx http-server
 ```
 And visit the localhost, most likely with port number as 8080, i.e. `localhost:8080`
+
+To see the basic idea on sending out notification. Visit `localhost:[PortNumber]`
+
+To see the dashboard and the analysis on your posture, visit `localhost:[PortNumber]/index_pc.html`
