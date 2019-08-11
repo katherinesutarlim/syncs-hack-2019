@@ -1,3 +1,5 @@
+// Adapted from https://davidwalsh.name/browser-camera
+
 // Grab elements, create settings, etc.
 var canvas = document.getElementById('canvas');
 var context = canvas.getContext('2d');
