@@ -110,7 +110,7 @@ const buttonDown = (k) => {
 }
 
 const main = async () => {
-    document.addEventListener('keydown', buttonDown);
+    self.addEventListener('keydown', buttonDown);
     check();
     swRegistration = await registerServiceWorker();
     const permission =  await requestNotificationPermission();
