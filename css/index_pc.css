@@ -218,3 +218,25 @@ menu {
 .posture-warning {
   line-height: 3rem;
 }
+
+#posture {
+  grid-column: 2;
+}
+
+#posture img {
+  width: 982px;
+  margin-left: 32px;
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+
+#posture h1 {
+  margin-left: 32px;
+  margin-top: 16px;
+  font-size: 18px;
+}
+
+#posture h2 {
+  margin-left: 32px;
+  font-size: 18px;
+}

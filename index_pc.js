@@ -17,4 +17,3 @@ postureBtn.addEventListener("click", () => {
     postureBtn.classList.add("selected");
     dashboardBtn.classList.remove("selected");
 });
-
